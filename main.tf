@@ -5,7 +5,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-# Create S3 bucket for tf
+# Create S3 bucket for tf 1
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-simple-terraform-bucket-2026-12345"
 }
