@@ -9,8 +9,8 @@ provider "aws" {
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-simple-terraform-bucket-2026-12345"
 }
-resource "aws_s3_bucket" "my_bucket1" {
-  bucket = "my-simple-terraform-bucket-2026-123451"
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = "my-simple-terraform-bucket-2026-12345"
 }
 
 # Get Amazon Linux AMI hello 
