@@ -10,6 +10,7 @@ resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-simple-terraform-bucket-2026-12345"
 }
 
+
 # Get Amazon Linux AMI hello 
 data "aws_ami" "linux" {
   most_recent = true
