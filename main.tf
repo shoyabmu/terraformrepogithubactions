@@ -4,18 +4,12 @@
 provider "aws" {
   region = "ap-south-1"
 }
-/*
+
 # Create S3 bucket for 
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-simple-terraform-bucket-2026-12345"
 }
-resource "aws_s3_bucket" "my_bucket2" {
-  bucket = "my-simple-terraform-bucket-2026-12345editone"
-}
 
-resource "aws_s3_bucket" "my_bucket3" {
-  bucket = "my-simple-terraform-bucket-2026-12345editone3"
-}
 # Get Amazon Linux AMI hello 
 data "aws_ami" "linux" {
   most_recent = true
@@ -36,7 +30,7 @@ resource "aws_instance" "my_ec2" {
     Name = "My-Terraform-EC2"
   }
 }
-*/
+
 
 terraform {
   backend "s3" {
