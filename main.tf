@@ -4,8 +4,12 @@
 provider "aws" {
   region = "ap-south-1"
 }
+<<<<<<< HEAD
 
 
+=======
+/*
+>>>>>>> ff0e6e360cae80a5c1bcb072edaf63cf0bdf4d8b
 # Create S3 bucket for 
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-simple-terraform-bucket-2026-12345"
@@ -32,6 +36,7 @@ resource "aws_instance" "my_ec2" {
     Name = "My-Terraform-EC2"
   }
 }
+*/
 
 terraform {
   backend "s3" {
